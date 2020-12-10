@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [RegistrationIndexSuite]" parallel="tests">
+  <parameter name="autoGrantPermissions" value="true"/>
+  <test thread-count="1" verbose="10" name="Register_01: To Verify that user is able to register.(failed)" parallel="tests">
+    <classes>
+      <class name="android.Demo.Registration.Reg_Index">
+        <methods>
+          <include name="setUp"/>
+          <include name="reg"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- android.Demo.Registration.Reg_Index -->
+    </classes>
+  </test> <!-- Register_01: To Verify that user is able to register.(failed) -->
+</suite> <!-- Failed suite [RegistrationIndexSuite] -->

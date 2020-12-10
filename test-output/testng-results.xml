@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[------------------- Initiating the Mobile App Session -------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<h4 style='color:Purple;'>******** Test case ID: Registration</h4>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Step 1. Click on already sign in button.</b></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Step 2. Enter invalid email and click on continue:- ankit</b></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>Passed</b></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>User is getting the validation message for invalid input.</b></br>]]>
+    </line>
+  </reporter-output>
+  <suite name="RegistrationIndexSuite" duration-ms="78483" started-at="2020-12-10T05:55:58Z" finished-at="2020-12-10T05:57:16Z">
+    <groups>
+    </groups>
+    <test name="Register_01: To Verify that user is able to register." duration-ms="78483" started-at="2020-12-10T05:55:58Z" finished-at="2020-12-10T05:57:16Z">
+      <class name="android.Demo.Registration.Reg_Index">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:android.Demo.Registration.Reg_Index@754ba872]" name="setUp" is-config="true" duration-ms="50943" started-at="2020-12-10T05:55:58Z" finished-at="2020-12-10T05:56:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void android.Demo.Registration.Reg_Index.reg()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ca5619f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[------------------- Initiating the Mobile App Session -------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="reg()[pri:0, instance:android.Demo.Registration.Reg_Index@754ba872]" name="reg" duration-ms="23678" started-at="2020-12-10T05:56:48Z" finished-at="2020-12-10T05:57:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<h4 style='color:Purple;'>******** Test case ID: Registration</h4>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Step 1. Click on already sign in button.</b></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Step 2. Enter invalid email and click on continue:- ankit</b></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>Passed</b></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b>User is getting the validation message for invalid input.</b></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reg -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.Demo.Registration.Reg_Index@754ba872]" name="tearDown" is-config="true" duration-ms="3801" started-at="2020-12-10T05:57:12Z" finished-at="2020-12-10T05:57:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reg status=SUCCESS method=Reg_Index.reg()[pri:0, instance:android.Demo.Registration.Reg_Index@754ba872] output=<h4 style='color:Purple;'>******** Test case ID: Registration</h4>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- android.Demo.Registration.Reg_Index -->
+    </test> <!-- Register_01: To Verify that user is able to register. -->
+  </suite> <!-- RegistrationIndexSuite -->
+</testng-results>

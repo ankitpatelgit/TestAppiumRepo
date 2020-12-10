@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RegistrationIndexSuite" verbose="10" parallel="tests"
+	thread-count="1">
+	
+	<!-- Put IP of localhost/Grid Hub machine
+	<parameter name="selenium.host" value="localhost" />
+
+	Put Port of localhost RC/Grid Hub machine
+	<parameter name="selenium.port" value="4444" />
+
+	Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9
+	<parameter name="selenium.browser" value="chrome" /> -->
+	<!-- <parameter name="selenium.url" value="http://google.com" /> -->
+	
+	<parameter name="autoGrantPermissions" value="true" />
+	
+	  <test name="Register_01: To Verify that user is able to register.">
+		<classes>
+			<class name="android.Demo.Registration.Reg_Index">
+				<methods>
+					<include name="reg" />
+				</methods>
+			</class>
+		</classes>
+	</test>  
+	
+	</suite>
